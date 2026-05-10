@@ -40,3 +40,37 @@ public:
         return calculate(daysOverdue - 1, newTotal);
     }
 };
+
+class Library {
+public:
+    Library();  
+   
+    void addBook(const Book& b);
+    bool borrowBook(int id, const std::string& borrowerName, int loanDays = 14);
+    bool returnBook(int id);
+    
+    enum class SortBy { TITLE, AUTHOR, GENRE, AVAILABILITY };
+    std::vector<Book> getSorted(SortBy by, bool ascending = true) const;
+    
+    std::vector<Book> searchByTitle(const std::string& query) const;
+    std::vector<Book> searchByAuthor(const std::string& query) const;
+    std::vector<Book> searchByGenre(const std::string& genre) const;
+    std::vector<Book> getAllBooks() const { return books_; }
+    
+    struct FineRecord {
+        int    bookId;
+        std::string title;
+        std::string borrower;
+        int    daysOverdue;
+        double fine;
+    };
+    std::vector<FineRecord> getOverdueFines() const;
+    double getTotalFines() const;
+
+private:
+    std::vector<Book> books_;
+    int nextId_ = 1;
+
+    static bool containsCI(const std::string& haystack,
+        const std::string& needle);
+};

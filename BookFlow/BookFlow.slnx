@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="BookFlow.vcxproj" />
+  <Project Path="BookFlow.vcxproj" Id="d6069978-6d78-4fd3-8286-890bce69e924" />
 </Solution>
