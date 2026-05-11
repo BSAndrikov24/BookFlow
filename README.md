@@ -1,65 +1,114 @@
-# README
+<p align="center">
+  <img src="https://i.imgur.com/n6jF7UM.png" width="620">
+</p>
 
-## Project Description
-Our project is a JavaScript application created as a school team project.  
-The goal of the project is to demonstrate teamwork, programming skills, and the use of a GUI framework in a functional application.
+<hr>
 
-The application includes:
-- User-friendly graphical interface
-- Interactive elements
-- Organized project structure
-- JavaScript functionality and event handling
+<p align="center">
+  <img src="https://img.shields.io/github/contributors/BSAndrikov24/BookFlow?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/BSAndrikov24/BookFlow?style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/BSAndrikov24/BookFlow?style=for-the-badge">
+</p>
 
-The project is developed by a team of 4 students using GitHub for version control and collaboration.
+<br>
+
+# 🚀 Application Tech Stack
+
+<p align="left">
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+<img src="https://img.icons8.com/color/48/javascript.png" alt="JavaScript"/>
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+<img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML"/>
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+<img src="https://img.icons8.com/color/48/css3.png" alt="CSS"/>
+</a>
+
+<a href="https://getbootstrap.com/">
+<img src="https://img.icons8.com/color/48/bootstrap.png" alt="Bootstrap"/>
+</a>
+
+<a href="https://git-scm.com/">
+<img src="https://img.icons8.com/color/48/git.png" alt="Git"/>
+</a>
+
+<a href="https://github.com/">
+<img src="https://img.icons8.com/ios-glyphs/48/github.png" alt="GitHub"/>
+</a>
+
+<a href="https://code.visualstudio.com/">
+<img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="VS Code"/>
+</a>
+
+</p>
+
+<br>
+
+# 📄 Documentation
+
+<h3>
+➤ <a href="Documentation/Documentation.docx">Documentation</a>
+<img src="https://cdn.worldvectorlogo.com/logos/word-1.svg" width="30" height="20"/>
+</h3>
+
+<h3>
+➤ <a href="Documentation/Presentation.pptx">Presentation</a>
+<img src="https://cdn.worldvectorlogo.com/logos/powerpoint-2.svg" width="30" height="20"/>
+</h3>
+
+<br>
+
+# 📚 Project Description
+
+This project is a JavaScript application created as a school team assignment.
+
+The application demonstrates:
+- JavaScript functionality
+- GUI framework integration
+- Team collaboration using GitHub
+- Responsive design and interactive elements
+
+The project was developed by a team of 4 students.
 
 ---
 
-## Technologies Used
-- JavaScript
-- HTML
-- CSS
-- Bootstrap
-- Git & GitHub
-- Visual Studio Code
+# ⚙️ Installation & Running
 
----
-
-## Instructions for Running the Code
-
-### 1. Clone the repository
+## Clone the repository
 
 ```bash
-git clone https://github.com/your-repository-link.git
+git clone https://github.com/BSAndrikov24/BookFlow.git
 ```
 
-### 2. Open the project folder
+## Open the project folder
 
 ```bash
-cd project-name
+cd BookFlow
 ```
 
-### 3. Run the project
+## Run the project
 
 Open `index.html` in your browser.
 
-OR use VS Code Live Server:
-1. Install the Live Server extension
-2. Right click `index.html`
-3. Click **Open with Live Server**
+OR use VS Code Live Server.
 
 ---
 
-## GUI Framework Setup
+# 🖥️ GUI Framework Setup
 
 This project uses Bootstrap.
 
-### Add Bootstrap CSS inside `<head>`
+Add this inside `<head>`:
 
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 ```
 
-### Add Bootstrap JS before `</body>`
+Add this before `</body>`:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -67,52 +116,54 @@ This project uses Bootstrap.
 
 ---
 
-## Team Roles
+# 🏆 Our Team
 
-### Borislav Andrikov – Project Manager
-- Organized the project
+<h3><big>Borislav Andrikov - Project Manager</big></h3>
+
 - Managed GitHub repository
-- Coordinated team tasks
+- Organized tasks
+- Coordinated the project
 
-### Ivan Kolozenko – Frontend Developer
+<h3><big>Ivan Kolozenko - Front-End Developer</big></h3>
+
 - Created HTML structure
-- Designed CSS styles
-- Worked on responsive layout
+- Worked on CSS styling
+- Improved UI design
 
-### Semion Emelyanov – JavaScript Developer
-- Implemented JavaScript functionality
-- Added event handling and logic
-- Debugged code
+<h3><big>Simeon Emelyanov - JavaScript Developer</big></h3>
 
-### Mihail Mavrodiev – Documentation & Testing
-- Wrote README documentation
-- Tested application
-- Reported bugs and fixes
+- Added JavaScript functionality
+- Worked on logic and interactions
+- Fixed bugs
 
----
+<h3><big>Mihail Hristov - Documentation & Testing</big></h3>
 
-## Sprint Plan
+- Wrote documentation
+- Tested the application
+- Prepared presentation
 
-### Sprint 1 – Planning
-Tasks:
+<hr>
+
+<br>
+
+# 📅 Sprint Plan
+
+## Sprint 1 – Planning
 - Choose project idea
 - Create repository
-- Divide team roles
+- Assign team roles
 
-### Sprint 2 – UI Development
-Tasks:
+## Sprint 2 – UI Development
 - Create HTML pages
-- Add CSS styling
+- Add CSS styles
 - Configure Bootstrap
 
-### Sprint 3 – JavaScript Features
-Tasks:
-- Add interactive functionality
-- Connect buttons and events
-- Test user interactions
+## Sprint 3 – JavaScript Features
+- Add functionality
+- Connect events and buttons
+- Test interactions
 
-### Sprint 4 – Testing & Finalization
-Tasks:
+## Sprint 4 – Finalization
 - Fix bugs
 - Improve design
 - Final testing
@@ -120,13 +171,24 @@ Tasks:
 
 ---
 
-## Repository Rules
-- Commit changes regularly
-- Use meaningful commit messages
-- Test code before pushing
-- Work in separate branches when possible
+# 🔑 Application Access
 
----
+**You can access the project by:**
 
-## Authors
-School project created by a team of 4 students.
+<ol>
+<li>Downloading the repository from GitHub</li>
+<li>Cloning the repository using Git</li>
+<li>Running the project locally</li>
+</ol>
+
+## Clone command
+
+```bash
+git clone https://github.com/BSAndrikov24/BookFlow.git
+```
+
+<br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&customColorList=4" width="1200px"/>
+</p>
