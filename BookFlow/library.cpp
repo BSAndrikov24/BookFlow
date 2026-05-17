@@ -31,7 +31,7 @@ Library::Library() {
         };
 
     books_ = {
-        Book(1,  "Братя Карамазови",       "Фйордор Достоевски",   "Класическа Литература"),
+        Book(1,  "Bratq Karamazovi",       "Fjordor Dostoevski",   "Класическа "),
         Book(2,  "Pod igoto",               "Ivan Vazov",           "Исторически роман"),
         Book(3,  "Maystora i Margarita",    "Mihail Bulgakov",      "Магически реализъм"),
         Book(4,  "Dyun",                    "Frank Harburt",        "Научна Фантастика"),
