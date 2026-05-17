@@ -42,13 +42,13 @@ Library::Library() {
         Book(9,  "Alhimikut",               "Paulo Koelyo",         "Философски Роман"),
         Book(10, "Voyna i mir",             "Lev Tolstoy",          "Исторически Роман"),
         makeOverdue(11, "Harry Potter i Filosofskiyat Kamak",
-                        "J. K. Rowling", "Fentazi", "Ivan Petrov", 5),
+                        "J. K. Rowling", "фентази", "Ivan Petrov", 5),
         makeOverdue(12, "Vlastelinyat na Prustenite",
-                        "J. R. R. Tolkien", "Fentazi", "Maria Ivanova", 12),
+                        "J. R. R. Tolkien", "Фентази", "Maria Ivanova", 12),
         makeOverdue(13, "Protsesut",
-                        "Franz Kafka", "Modernizum", "Georgi Dimitrov", 3),
-        Book(14, "Putehestviyata na Gulivar","Jonathan Swift",   "Satira"),
-        Book(15, "Portret na Dorian Grey",  "Oscar Wilde",          "Goticheski roman"),
+                        "Franz Kafka", "Модернизъм", "Georgi Dimitrov", 3),
+        Book(14, "Putehestviyata na Gulivar","Jonathan Swift",   "Сатира"),
+        Book(15, "Portret na Dorian Grey",  "Oscar Wilde",          "Готически роман"),
     };
     nextId_ = 16;
 }

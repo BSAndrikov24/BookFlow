@@ -149,17 +149,17 @@ static void menuFines(Library& lib) {
             << std::setw(20) << r.borrower.substr(0, 19)
             << Color::RED
             << std::setw(7) << r.daysOverdue << " дни   "
-            << std::fixed << std::setprecision(2) << r.fine << " лв."
+            << std::fixed << std::setprecision(2) << r.fine << " EUR"
             << Color::RESET << '\n';
     }
     printSeparator();
     std::cout << Color::BOLD << Color::YELLOW
         << "  Общо глоби: " << std::fixed << std::setprecision(2)
-        << lib.getTotalFines() << " лв."
+        << lib.getTotalFines() << " EUR"
         << Color::RESET << '\n';
     std::cout << Color::BLUE
         << "  (Изчислено рекурсивно: " << FineCalculator::FINE_PER_DAY
-        << " лв./ден, максимум " << FineCalculator::MAX_FINE << " лв.)\n"
+        << " EUR/ден, максимум " << FineCalculator::MAX_FINE << " EUR)\n"
         << Color::RESET;
 }
 

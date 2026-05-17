@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6069978-6D78-4FD3-8286-890BCE69E924}|BookFlow.vcxproj|C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D6069978-6D78-4FD3-8286-890BCE69E924}|BookFlow.vcxproj|solutionrelative:library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6069978-6D78-4FD3-8286-890BCE69E924}|BookFlow.vcxproj|C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\BookFlow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D6069978-6D78-4FD3-8286-890BCE69E924}|BookFlow.vcxproj|solutionrelative:BookFlow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6069978-6D78-4FD3-8286-890BCE69E924}|BookFlow.vcxproj|C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D6069978-6D78-4FD3-8286-890BCE69E924}|BookFlow.vcxproj|solutionrelative:library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookFlow.cpp",
               "DocumentMoniker": "C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\BookFlow.cpp",
               "RelativeDocumentMoniker": "BookFlow.cpp",
               "ToolTip": "C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\BookFlow.cpp",
               "RelativeToolTip": "BookFlow.cpp",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAAK4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAM8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-10T18:37:00.18Z",
               "IsPinned": true,
@@ -36,13 +36,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "library.cpp",
               "DocumentMoniker": "C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\library.cpp",
               "RelativeDocumentMoniker": "library.cpp",
               "ToolTip": "C:\\School 8th - 12th grade\\BookFlow\\BookFlow\\library.cpp",
               "RelativeToolTip": "library.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-10T18:38:15.263Z",
               "EditorCaption": ""
