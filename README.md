@@ -90,13 +90,13 @@ Open `BookFlow.slnx` in Visual Studio and run the program.
 - Organized tasks
 - Coordinated the project
 
-<h3><big>Ivan Kolozenko - C++ Developer</big></h3>
+<h3><big>Simeon Emelyanov - C++ Developer</big></h3>
 
 - Worked on application structure
 - Developed program features
 - Improved user interface
 
-<h3><big>Simeon Emelyanov - Backend Logic Developer</big></h3>
+<h3><big>Ivan Kolozenko - Backend Logic Developer</big></h3>
 
 - Added application functionality
 - Worked on logic and interactions
